@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -32,6 +32,7 @@ h6 {
 }
 
 .home-banner p.lead {
+    font-family: 'Lato';
     font-size: 16px;
 }
 
@@ -58,7 +59,7 @@ footer a.nav-link {
 }
 
 .heroText {
-    font-family: serif;
+    font-family: 'Roboto', 'sans-serif';
     font-size: 5vw;
     width: 40vw;
     padding-bottom: 10px;
@@ -77,13 +78,9 @@ footer a.nav-link {
     box-shadow: whitesmoke -1px 1px 6px 4px;
 }
 
-.heroC {
-    color: rgb(106, 255, 0);
-}
-
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 10px 10px;
 }
 
