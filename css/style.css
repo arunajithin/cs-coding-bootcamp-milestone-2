@@ -156,6 +156,151 @@ input {
     width: 100%;
 }
 
+
 .me-9 {
     margin-right: 5rem !important;
+}
+
+.togger[type=checkbox]{
+
+    display: none;
+    
+    }
+   
+    .hamburger {
+      display: none;
+        font-size: 24px;
+        user-select: none;
+    }
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+    margin-left: 28%;
+    margin-bottom:-4%;
+    }
+
+.menu{
+    display: none;
+}
+
+.hamburger{
+display:block;
+margin-top: -12%;
+margin-bottom: 0%;
+padding-left: 6%;
+
+}
+
+.togger[type=checkbox]:checked ~ .menu{
+        display:block;
+        padding-top: 2%;     
+    }
+    
+    .nav {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+        }
+       
+}
+
+@media screen and (max-width: 700px) {
+    
+    .navbar-brand {
+        margin-left: 28%;
+        margin-bottom:1%;
+        }
+    
+    .menu{
+        display: none;
+    }
+    
+    .hamburger{
+    display:block;
+    margin-top: -12%;
+    margin-bottom: 0%;
+    padding-left: 6%;
+    
+    }
+    
+    .togger[type=checkbox]:checked ~ .menu{
+        
+         display:block;
+         padding-top: 2%;
+            
+        }
+        
+     .nav {
+     left: 50%;  
+     top: 30px;
+     transform: translateX(35%);
+            
+     }   
+}
+
+@media screen and (max-width: 800px) {
+
+    .navbar-brand {
+        margin-left: 36%;
+        margin-bottom:1%;
+        }
+    
+    .menu {
+        display: none;
+    }
+    
+    .hamburger{
+    display:block;
+    margin-top: -12%;
+    margin-bottom: 0%;
+    padding-left: 6%;
+    
+    }
+    
+    .togger[type=checkbox]:checked ~ .menu{
+     display:block;
+     padding-top: 2%;     
+        }
+        
+     .nav {
+      left: 50%;
+      top: 30px;
+      transform: translateX(35%);
+            
+            }    
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar-brand {
+        margin-left: 36%;
+        margin-bottom:1%;
+        }
+    
+    .menu {
+        display: none;
+    }
+    
+    .hamburger{
+    display:block;
+    margin-top: -12%;
+    margin-bottom: 0%;
+    padding-left: 6%;
+    
+    }
+    
+    .togger[type=checkbox]:checked ~ .menu{
+    
+     display:block;
+     padding-top: 2%;
+            
+        }
+        
+     .nav {
+    
+     left: 50%;       
+     top: 30px;
+     transform: translateX(35%);
+            
+            }
 }
